@@ -1,8 +1,8 @@
 {
-    "name": "codica-studio/adminpermissions",
+    "name": "codicastudio/permissions-manager",
     "description": "A random Codica Studio package.",
 
-    "homepage": "https://github.com/codicastudio/adminpermissions",
+    "homepage": "https://github.com/codicastudio/permissions-manager",
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "codica-studio/acl": "dev-master"
+        "codicastudio/permissions": "^1.0"
     },
     "autoload": {
         "psr-4": {
@@ -22,9 +22,6 @@
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "2.0-dev"
-        },
         "laravel": {
             "providers": [
                 "Vyuldashev\\NovaPermission\\ToolServiceProvider"
@@ -34,6 +31,6 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
